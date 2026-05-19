@@ -6,7 +6,7 @@ os.environ["GRPC_VERBOSITY"] = "ERROR"
 os.environ["GLOG_minloglevel"] = "2"
 
 # configure API key
-genai.configure(api_key="AIzaSyC0IO2lMdxghy225zuEg9RlL4TVWo_Nh7I")
+genai.configure(api_key="")
 # configure model version
 model = genai.GenerativeModel("gemini-2.5-flash-lite")
 
